@@ -14,6 +14,6 @@ $$
 RDI = \left( \frac{1}{Rrs_{08}} - \frac{1}{Rrs_{06}} \right) \times Rrs_{12}
 $$
 
-Untuk riset ini, kami menggunakan RDI untuk mendeteksi kejadian HAB di Teluk Jakarta. Kami menggunakan platform [`Planetary Computer` yang disediakan oleh Microsoft](https://planetarycomputer.microsoft.com/) untuk memproses data Sentinel-3 pada *cloud*. Platform ini menyediakan akses data yang luas sekaligus *analysis tools* yang menggunakan program-program opensource seperti Jupyter (Python), R dan QGIS. Hal ini memudahkan pemrosesan data karena bisa langsung dilakukan secara *online* dan kolaboratif, dan dapat menghemat *resources* di level pengguna.
+Untuk riset ini, kami menggunakan RDI untuk mendeteksi kejadian HAB di Teluk Jakarta. Kami menggunakan platform `Planetary Computer` yang [disediakan oleh Microsoft](https://planetarycomputer.microsoft.com/) untuk memproses data Sentinel-3 pada *cloud*. Platform ini menyediakan akses data yang luas sekaligus *analysis tools* yang menggunakan program-program opensource seperti Jupyter (Python), R dan QGIS. Hal ini memudahkan pemrosesan data karena bisa langsung dilakukan secara *online* dan kolaboratif, dan dapat menghemat *resources* di level pengguna.
 
 ## Content
