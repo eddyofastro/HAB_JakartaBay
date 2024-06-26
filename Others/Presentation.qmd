@@ -1,0 +1,58 @@
+---
+title: "Update KI Kelris IMBeR"
+date: "25 March 2024"
+author: "Edwards Taufiqurrahman"
+lang: id
+format: 
+    beamer:
+        aspectratio: 1610
+        theme: metropolis
+        themeoptions: [numbering=fraction, progressbar=frametitle, block=fill]
+pdf-engine: lualatex
+dpi: 360
+mainfont: "Alegreya"
+mainfontoptions: [RawFeature=+pnum;+lnum;+dlig;+calt]
+monofont: "IosevkaTerm Nerd Font"
+monofontoptions: [RawFeature=+frac;+lnum;+dlig;+zero]
+sansfont: "Alegreya Sans"
+sansfontoptions: [RawFeature=+pnum;+lnum;+dlig;+calt]
+mathfont: "Libertinus Math"
+mathfontoptions: [RawFeature=+kern;+dlig;+pnum;+onum;+ssty]
+fontsize: 12pt
+include-in-header:
+    text: |
+        \usecolortheme[snowy,cautious]{owl}
+        \setbeamerfont{title}{family=\rmfamily}
+        \setbeamerfont{subtitle}{family=\rmfamily}
+        \setbeamerfont{section title}{family=\rmfamily}
+        \setbeamerfont{frametitle}{family=\rmfamily}
+        \setbeamerfont{normal text}{family=\sffamily}
+        \setbeamerfont{block title}{series=\bfseries}
+        \setbeamerfont{block title alerted}{series=\bfseries}
+---
+## Satelit Sentinel-3 {.fragile}
+
+Sentinel-3 merupakan proyek satelit observasi bumi yang dioperasikan oleh ESA & EUMETSAT.
+
+::: {.columns}
+
+::: {.column}
+
+- Data Sentinel-3 tersedia dari beberapa instrumen.
+    - Sea and Land Surface Temperature Radiometer (SLSTR),
+    - Ocean and Land Colour Instrument (OLCI),
+    - Altimetry Surface Topography Mission (STM).
+:::
+
+::: {.column}
+
+![Komponen satelit Sentinel-3](image-20230613-093912.png){width=700}
+
+:::
+
+:::
+
+Data dapat diakses pada L1/2 (higher resolution) atau L3/4 (lower resolution).
+
+## Akses Data
+
